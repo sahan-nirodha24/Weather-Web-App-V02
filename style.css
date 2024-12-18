@@ -1,0 +1,282 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('images/home.jpg');
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    color: #fff;
+}
+
+/* Container Styling */
+.container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+h1 {
+    color: #ffdd57;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+/* Buttons - Grid layout for top 5 cities */
+.city-buttons-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.city-btn {
+    flex: 1;
+    margin: 0 5px;
+    background: linear-gradient(45deg, #42a5f5, #6a1b9a);
+    color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.city-btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #1976d2, #4a148c);
+}
+
+/* Country Dropdown */
+.country-section {
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: #ffdd57;
+}
+
+.scrollable-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    background: #fff;
+    color: #333;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Weather Info Box */
+.weather-info {
+    margin-top: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+    animation: fadeIn 0.5s ease;
+    text-align: center; 
+    position: relative; 
+}
+
+.weather-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    color: #ff6600;
+    font-weight: bolder;
+}
+
+.weather-info h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #13008f;
+    font-weight: bold;
+}
+
+.weather-info p {
+    font-size: 1rem;
+    color: #000000;
+    margin: 5px 0;
+    text-align: justify;
+}
+
+/* Weather Image - Positioning it in the left corner */
+.weather-image {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* Weekly Forecast Table */
+.weekly-forecast {
+    margin-top: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.weekly-forecast h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #ff0000;
+    font-weight: bolder;
+}
+
+#forecast-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#forecast-table th,
+#forecast-table td {
+    padding: 10px;
+    border: 5px solid #ccc; 
+    font-size: 1rem;
+    color: #272727; 
+    font-weight: bold;
+}
+
+#forecast-table th {
+    background-color: #4CAF50; 
+    color: #fff; 
+}
+
+#forecast-table tr:nth-child(even) {
+    background-color: #eef6f9; 
+}
+
+#forecast-table tr:nth-child(odd) {
+    background-color: #e1b0ff; 
+}
+
+#forecast-table tr:hover {
+    background-color: #ffc145; 
+    cursor: pointer;
+}
+
+/* Animation for Fade-in Effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Responsive Design for Mobile */
+@media screen and (max-width: 600px) {
+    body, html {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        margin: 20px auto;
+        padding: 15px;
+        overflow: visible; 
+    }
+
+    .country-section {
+        margin-top: 20px;
+        overflow: visible; 
+    }
+
+    .scrollable-select {
+        width: 100%;
+        max-height: 150px; 
+        overflow-y: auto; 
+        font-size: 0.9rem;
+        border-radius: 8px;
+        border: none;
+        background: #fff;
+        color: #333;
+        font-weight: bold;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        position: relative;
+        z-index: 10; 
+    }
+
+    .city-buttons-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .city-btn {
+        padding: 10px 8px;
+        font-size: 1rem;
+        margin: 0;
+        flex: none;
+    }
+
+    .weather-info {
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    .weather-info h2 {
+        font-size: 2rem;
+    }
+
+    .weather-info h3 {
+        font-size: 1.5rem;
+    }
+
+    .weather-info p {
+        font-size: 0.9rem;
+    }
+
+    .weather-image {
+        width: 50px;
+        height: 50px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .weekly-forecast {
+        padding: 15px;
+    }
+
+    .weekly-forecast h3 {
+        font-size: 1.5rem;
+    }
+
+    #forecast-table {
+        font-size: 0.85rem;
+    }
+
+    #forecast-table th, #forecast-table td {
+        padding: 8px;
+    }
+
+    #forecast-table th {
+        font-size: 1rem;
+    }
+
+    #forecast-table tr:nth-child(even),
+    #forecast-table tr:nth-child(odd) {
+        background-color: #f8f8f8;
+    }
+}
