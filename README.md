@@ -44,4 +44,4 @@ This Is A Drop Down Menu Of The Weather Application
 
 Video Demonstration Link : https://youtu.be/_f32IZp03Uc
 
-These link will be help to understand the all over the process of the weather web application
+This video link will be help to understand the all over the process of the weather web application
