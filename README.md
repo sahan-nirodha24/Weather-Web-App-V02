@@ -36,8 +36,5 @@ User Select Zimbabwe Using Dropdown Menu The Weather Application Displays It's C
 This Is A Drop Down Menu Of The Weather Application
 ![Screenshot 2024-12-17 160701](https://github.com/user-attachments/assets/53ccb5c9-0d2b-49f4-a0c4-1ff4e092ebcd)
 
-
-![Screenshot 2024-12-17 155946](https://github.com/user-attachments/assets/b556c44b-9e35-445b-a1f8-02d39156ff07)
-
-
-![Screenshot 2024-12-17 155955](https://github.com/user-attachments/assets/8bfffb2b-1447-4c38-9730-1381b5c7c92f)
+        This Is A Mobile View Of The Weather Application
+![Screenshot 2024-12-17 155946](https://github.com/user-attachments/assets/b556c44b-9e35-445b-a1f8-02d39156ff07) ![Screenshot 2024-12-17 155955](https://github.com/user-attachments/assets/8bfffb2b-1447-4c38-9730-1381b5c7c92f)
