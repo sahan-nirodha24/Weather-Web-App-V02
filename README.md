@@ -1,16 +1,18 @@
-## This Is A Simple Weather Mobile Web Application Version 02
+## Simple Weather Mobile Web Application (Version 02) 🌦️
+This version of the weather application enhances functionality by providing current weather conditions and 5-day weather forecasts for selected cities and countries using the OpenWeatherMap API.
 
-This application major purpose for displays the current weather forecasting & next 5 days weather forecasting for the following 5 cities using the OpenWeatherMap API
+### Features:
++ #### Current Weather & 5-Day Forecasts for 5 Cities:
+   + New York
+   + London
+   + Tokyo
+   + Colombo
+   + Dubai
++ #### Global Weather Forecasts:
+   + Select any country from a scrollable dropdown menu to view both current weather and a 5-day forecast.
+   + This project showcases an upgraded version (v02) of the weather-focused mobile web application, making it even more useful and comprehensive.
 
-1) New York
-2) London
-3) Tokyo
-4) Colombo
-5) Dubai
-
-And the other cool feature of this mobile web application is it can display the all over the countries weather forecasting & next 5 days weather forecasting, using for drop down menu and scrolling it and selecting which countries to get the weather informations.
-
-        Screen Shots Of The Weather Mobile Web Application Version 02
+### Screen Shots Of The Weather Mobile Web Application Version 02
 
 Normal View Of The Weather Web Mobile Application
 ![Screenshot 2024-12-17 154857](https://github.com/user-attachments/assets/d3e2d685-26ed-47da-8ac4-d4e131a74558)
@@ -36,12 +38,12 @@ User Select Zimbabwe Using Dropdown Menu The Weather Application Displays It's C
 This Is A Drop Down Menu Of The Weather Application
 ![Screenshot 2024-12-17 160701](https://github.com/user-attachments/assets/53ccb5c9-0d2b-49f4-a0c4-1ff4e092ebcd)
 
-        This Is A Mobile View Of The Weather Application
+### This Is A Mobile View Of The Weather Application
 ![Screenshot 2024-12-17 155946](https://github.com/user-attachments/assets/b556c44b-9e35-445b-a1f8-02d39156ff07) 
 ![Screenshot 2024-12-17 155955](https://github.com/user-attachments/assets/8bfffb2b-1447-4c38-9730-1381b5c7c92f)
 
-        Video Demonstration Of The Weather Web Application
+### Video Demonstration Of The Weather Web Application
 
-Video Demonstration Link : https://youtu.be/_f32IZp03Uc
++ Video Demonstration Link : https://youtu.be/_f32IZp03Uc
 
-This video link will be help to understand the all over the process of the weather web application
++ This video link will be help to understand the all over the process of the weather web application
